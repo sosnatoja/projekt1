@@ -1,44 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
     android:orientation="vertical"
-    >
-
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/nazwa_1"
         android:background="@color/colorBlue"
-        android:gravity="center"/>
+        android:gravity="center"
+        android:layout_weight="1"
+        android:layout_margin="10dp"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/nazwa_2"
         android:background="@color/colorRed"
-        android:gravity="center"/>
+        android:gravity="center"
+        android:layout_weight="1"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+       />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/nazwa_3"
         android:background="@color/colorYelow"
-        android:gravity="center" />
+        android:gravity="center"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/nazwa_4"
         android:background="@color/colorGrey"
-        android:gravity="center" />
+        android:gravity="center"
+        android:layout_weight="1"
+        android:layout_marginLeft="64dp"
+        android:layout_marginRight="64dp"
+       />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/nazwa_5"
         android:background="@color/colorGreen"
-        android:gravity="center" />
+        android:gravity="center"
+        android:layout_weight="1"
+        android:layout_margin="10dp"/>
 
 
 
 </LinearLayout>
+
+

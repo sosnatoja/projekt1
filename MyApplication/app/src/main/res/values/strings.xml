@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Moja app</string>
+
+    <string name="nazwa_1">NIEBIESKI</string>
+    <string name="nazwa_2">CZERWONY</string>
+    <string name="nazwa_3">ŻÓŁTY</string>
+    <string name="nazwa_4">SZARY</string>
+    <string name="nazwa_5">ZIELONY</string>
+    <string name="nazwa6">Login</string>
+    <string name="nazwa7">Hasło</string>
+    <string name="nazwa8">Zaloguj</string>
+
+
 </resources>
